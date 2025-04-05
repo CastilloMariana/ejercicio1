@@ -26,7 +26,8 @@ public class calculadora {
 	        System.out.print("Ingresa el segundo número: ");
 	        num2 = scanner.nextDouble();
 
-	        // Realizar la operación según la opción seleccionada
+	        // Llenar las operaciones y salidas de datos:
+	     
 	        switch(opcion) {
 	            case 1:
 	                resultado = num1 + num2;
@@ -51,7 +52,7 @@ public class calculadora {
 	            default:
 	                System.out.println("Opción no válida. Por favor, elige una opción entre 1 y 4.");
 	                break;
-	        }
+
 
 	        scanner.close();
 	    }
