@@ -46,6 +46,8 @@ public class calculadora {
 	                    resultado = num1 / num2;
 	                    System.out.println("El resultado de la división es: " + resultado);
 	                } else {
+	                	
+	                }
 	                    System.out.println("Error: No se puede dividir entre cero.");
 	                }
 	                break;
